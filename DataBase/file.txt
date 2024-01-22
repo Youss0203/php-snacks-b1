@@ -1,3 +1,8 @@
 1) SELECT * 
 FROM `students` 
 WHERE `surname` like '%o';
+
+
+2)SELECT `vote` 
+FROM `exam_student` 
+WHERE `vote` >= 28;
